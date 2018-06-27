@@ -1,0 +1,34 @@
+The books are labelleed with numbers that belong in
+sections 100-1000
+
+10 sections
+
+each section has 10 more sections so the 500 group has:
+  500, 510, 520 ,530 etc
+
+then 510 is another subcategory 510,511,512,513,514 etc,
+
+and within that 514 could have 514.1 or 514.2 or 514.3 etc
+
+and then 514.3 could have 514.31, 514.32, 514.33 etc
+
+
+so I have a book with number 633.67
+I go to the 600'section
+then find the middle at 650 or so which is > my number 
+so I move to the halfway point of 600-650 so around 625
+see a book that is 625 so I know mine is to the right of that
+halfway point of 625-650 so about 637.5
+then look at 631-637
+634 which is more than my number so look at
+631-634
+632.5
+632.5-634 and now I found it
+
+then I can do the same with 633 to the tenth decimal
+start at 633.5 and repeat. 
+
+I do not need to look through every book in the library,
+ not even every book in the 600's etc. 
+
+ O(log(n))
